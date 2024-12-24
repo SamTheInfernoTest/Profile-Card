@@ -43,7 +43,6 @@ function App() {
   return (
     <div className='w-full min-h-screen place-content-center bg-gradient-to-br dark:from-slate-950 dark:via-slate-800 dark:to-slate-700 dark:text-white text-slate-800 from-blue-400 via-blue-200 to-blue-50'>
       <div className='flex flex-row max-w-[400px] h-[155px] mx-auto p-3 bg-gradient-to-r dark:from-indigo-600 from-indigo-300 dark:via-purple-600 via-purple-300 dark:to-pink-600 to-pink-300 rounded-2xl justify-between text-lg font-semibold border-2 dark:border-sky-100 border-sky-500 shadow-slate-700 dark:shadow-slate-600 hover:shadow-2xl shadow-xl transition-all ease-out duration-700 hover:scale-105'
-      title='Click to Change User'
       >
         <div>
           <img src={profilePic} alt={firstName} 
